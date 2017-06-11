@@ -6,9 +6,9 @@ package calcul;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Calculator<T> {
+public class Calculator {
     public static void main(String[] args) throws IOException {
-        BinaryTree<String> t1 = new BinaryTree("");
+        BinaryTree t1 = new BinaryTree("");
         parseTree p1= new parseTree();
         Scanner scan = new Scanner(System.in);
         while (true) {
