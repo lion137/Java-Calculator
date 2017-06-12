@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Calculator {
     public static void main(String[] args) throws IOException {
         BinaryTree t1 = new BinaryTree("");
-        parseTree p1= new parseTree();
+        ParseTree p1= new ParseTree();
         System.out.println("Welcome to calculator, type h to help,\ntype q/quit to exit");
         String help = "When do arithmetic use fully parenthesized expressions, i.e\n" +
                 "for every binary operator there is one pair of parenthesis (left and right).\n" +
