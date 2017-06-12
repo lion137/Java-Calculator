@@ -1,7 +1,7 @@
 package calcul;
 
 /**
- * Created by lion on 12/06/17.
+ * Copyleft by lion137.blogspot.ie
  */
 import java.io.IOException;
 import java.util.Scanner;
