@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class parseTree<T> {
+public class ParseTree<T> {
     public int cntrl = 0;
 
     public BinaryTree buildParseTree(String exp) {
